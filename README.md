@@ -38,6 +38,7 @@ unzip bckgrnd.zip
 ```
 python keys_with_background.py --keys "key_wb" --background "bckgrnd" --output "keys_and_background"
 mv keys_and_background/annotations.csv .
+```
 
 #3. Download YOLOv3 weights :
 
@@ -74,6 +75,7 @@ For Tiny YOLOv3, just do in a similar way, just specify model path and anchor pa
 
 ### Usage
 Use --help to see usage of yolo_video.py:
+
 ```
 usage: test_yolo.py  [-h] [--model MODEL] [--anchors ANCHORS]
                      [--classes CLASSES] [--gpu_num GPU_NUM] [--image]
@@ -92,6 +94,7 @@ optional arguments:
                      model_data/coco_classes.txt
   --image            Image detection mode, will ignore all positional arguments
 ```
+
 ---
 
 
